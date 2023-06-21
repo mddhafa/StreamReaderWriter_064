@@ -8,4 +8,9 @@ int main() {
 		cout << "Pernyataan tidak akan di eksekusi" << endl;
 	}
 
+	catch (int a) {
+		//blok ini akan di eksekusi
+		cout << "Pengecualian akan di eksekusi" << endl;
+	}
+
 }
