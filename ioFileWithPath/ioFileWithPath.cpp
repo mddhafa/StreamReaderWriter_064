@@ -30,4 +30,5 @@ int main() {
 	//selesai damam menulis sekarang tutup filenya
 	outfile.close();
 
+
 	
