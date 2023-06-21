@@ -9,7 +9,7 @@ int main() {
 	// membuka file dalam mode menulis
 	ofstream outfile;
 	//menunjuk ke sebuah nama file
-	outfile.open("contohfile.txt");
+	outfile.open("C:\infile pemdas\contohfile.txt");
 
 	cout << "<= Menulis File, \'q\' untuk keluar" << endl;
 	 
@@ -23,4 +23,12 @@ int main() {
 		// menulis dan memasukkan nilai dari 'baris' ke dalam file 
 		outfile << baris << endl;
 	}
-}
+	//selesai damam menulis sekarang tutup filenya
+	outfile.close();
+
+	//membuka file dalam mode membaca 
+	ifstream infile;
+	//menunjuk ke sebuah file 
+	infile.open("C:\infile pemdas\contohfile.txt");
+	cout << endl << ">= Membuka dan Membaca file" << endl;
+	
